@@ -1,0 +1,90 @@
+{
+  // Place your shopino workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  "React Pre Element": {
+    "prefix": "prd",
+    "body": ["<pre>{JSON.stringify(${1:value}, null, 2)}</pre>"],
+    "description": "React Pre Component",
+  },
+  "React Arrow Component": {
+    "prefix": "rc",
+    "body": [
+      "const ${1:name} = () => {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+    ],
+    "description": "React Functional Component",
+  },
+  "React Functional Component": {
+    "prefix": "rce",
+    "body": [
+      "export const ${1:name} = () => {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+    ],
+    "description": "React Functional Component",
+  },
+  "it Client Component": {
+    "prefix": "uc",
+    "body": ["'use client'", ""],
+    "description": "React Functional Component",
+  },
+  "React Functional Page Component": {
+    "prefix": "fcp",
+    "body": [
+      "export default function ${1:name}() {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+    ],
+    "description": "React Functional Component",
+  },
+  "React Functional Exportenal": {
+    "prefix": "fce",
+    "body": [
+      "interface Props {}",
+      "",
+      "export function ${1:name}() {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+    ],
+    "description": "React Functional Component",
+  },
+  "React Functional Component Client": {
+    "prefix": "fcc",
+    "body": [
+      "'use client'",
+      "",
+      "interface Props {}",
+      "",
+      "export default function ${1:name}() {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+    ],
+    "description": "React Functional Component",
+  },
+}
